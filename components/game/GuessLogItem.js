@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet } from 'react-native';
-import Colors from '../../constants/colors.js';
+import { StyleSheet, Text, View } from 'react-native';
+import Colors from '../../constants/colors';
 
 function GuessLogItem({roundNumber,guess}) {
     return (
